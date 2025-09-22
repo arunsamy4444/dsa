@@ -18,18 +18,7 @@ def ValidParentheses(s):
         print('True')   
     else:
         print('False')  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     # stack = []
     # d = {'[':']','{':'}','(':')'}
