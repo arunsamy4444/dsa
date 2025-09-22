@@ -15,3 +15,23 @@ def lengthOfLongestSubstring(s):
     print(max_len)
             
 print(lengthOfLongestSubstring("abcabcbb"))  # 3
+
+
+
+# class Solution:
+#     def lengthOfLongestSubstring(self, s: str) -> int:
+#         stack = []
+#         if s=="":
+#             return 0
+#         count = 0
+#         for i in s:
+#             if i not in stack:
+#                 stack.append(i)
+#             else:
+#                 idx=stack.index(i)
+#                 stack = stack[idx+1:]
+#                 stack.append(i)
+#             count = max(count,len(stack))
+#         return count
+ 
+        

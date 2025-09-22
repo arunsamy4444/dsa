@@ -34,3 +34,15 @@ print(ContainsDuplicate([1,2,3,4]))  # False
 # print(ContainsDuplicate([1,2,3,4]))  # False
 # print(ContainsDuplicate([]))         # False
 # print(ContainsDuplicate([5]))        # False
+
+
+
+# class Solution:
+#     def containsDuplicate(self, nums: List[int]) -> bool:
+#         new_arr = set(nums)
+#         if len(nums) != len(new_arr):
+#             return True
+#         else:
+#             return False
+        
+        
