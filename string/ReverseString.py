@@ -1,3 +1,4 @@
+
 def ReverseString(str):
     l = 0
     r = len(str) - 1
@@ -9,3 +10,10 @@ def ReverseString(str):
     
     
 print(ReverseString(['A','R','U','N','S','A','M','Y']))
+
+
+# def ReverseString(str):
+#     return str[::-1]
+
+# s = "hello"
+# print(ReverseString(s))

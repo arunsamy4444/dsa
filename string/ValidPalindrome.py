@@ -1,3 +1,4 @@
+
 def ValidPalindrome(s):
     res = ''.join(c.lower() for c in s if c.isalnum())
     if not res :
@@ -11,3 +12,9 @@ def ValidPalindrome(s):
 
 print(ValidPalindrome("A man, a plan, a canal: Panama"))
 print(ValidPalindrome("race a car"))
+
+
+# def ValidPalindrome(s):
+#     return s == s[::-1]
+
+# print(ValidPalindrome("madam"))
