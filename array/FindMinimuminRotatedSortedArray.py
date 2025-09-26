@@ -3,10 +3,10 @@ def FindMinimuminRotatedSortedArray(arr):
     r=len(arr)-1
     while l < r:
         m = (l+r)//2
-        if arr[m] <= arr[r]:
-            r=m
-        else:
-            l=m+1
+        # if arr[m] <= arr[r]:
+        #     r=m
+        # else:
+        #     l=m+1
             
         # if arr[m] > arr[r]:
         #     l=m+1

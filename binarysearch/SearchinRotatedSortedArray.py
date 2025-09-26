@@ -1,16 +1,32 @@
-def SearchinRotatedSortedArray(nums,tar):
-    l,r=0,len(nums)-1
-    while l <= r:
-        m = (l+r)//2
-        if nums[m] == tar:
-            print(m)
-        elif nums[m] < tar:
-            l=m+1
-        else:
-            r=m-1
-    return -1
+# def SearchinRotatedSortedArray(nums,tar):
+#     l = 0
+#     r = len(nums)-1
+#     while l <= r:
+#         m = (l+r)//2
+#         if nums[m] == tar:
+#             print(m)
+#         else:
+#             if nums[l] <= nums[m]:
+                
+            
+        
+            
+
+
+
+# print(SearchinRotatedSortedArray([4,5,6,7,0,1,2],0)) #4
+# print(SearchinRotatedSortedArray([4,5,6,7,0,1,2],3)) #-1
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-
-
-print(SearchinRotatedSortedArray([4,5,6,7,0,1,2],0))
-print(SearchinRotatedSortedArray([4,5,6,7,0,1,2],3))
