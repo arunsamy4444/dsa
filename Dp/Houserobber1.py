@@ -9,9 +9,4 @@ def Houserobber1(nums):
         dp[i] = max(nums[i] + dp[i-2] , dp[i-1])
     print(dp[-1])
 
-    
-
-
-
-
 print(Houserobber1([1,2,3,1]))
