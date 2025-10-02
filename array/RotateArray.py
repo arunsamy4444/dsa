@@ -1,18 +1,9 @@
 def rotate(nums, k):
-    arr2=[]
     n = len(nums)
-    
-    k = k%n
-    s = n-k
-    
-    res=[]
-    for i in range(s,n): # loop og arr by taking range of k 
-        arr2.append(nums[i]) # add to new arr
-    for i in range(k,len(nums)-1):
-        nums.pop() # remove elements in og arr by k 
+    k %= n  # normalize k in case k > n
+    nums[:] = nums[-k:] + nums[:-k]  # rotate in-place
 
-    res = arr2 + nums # merge
-    print(res)
-    
-    
-rotate([1,2,3,4,5,6,7], 3)
+# Test
+arr = [1,2,3,4,5,6,7]
+rotate(arr, 3)
+print(arr)  # Output: [5,6,7,1,2,3,4]
