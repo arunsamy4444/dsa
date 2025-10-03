@@ -1,4 +1,3 @@
-#------ SOL 1 ----- 
 def ContainerWithMostWater(arr):
     l = 0
     r = len(arr)-1

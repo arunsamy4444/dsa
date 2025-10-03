@@ -6,10 +6,4 @@ def FirstMissingPositive(nums):
             print(i)
     print(len(nums))
     
-            
-        
-            
-
-            
- 
 print(FirstMissingPositive([1,2,0]))

@@ -7,9 +7,5 @@ def RemoveElement(arr,val):
             arr[p] = arr[i]
             p+=1
     print(p)
-
-            
-
-    
-    
+  
 print(RemoveElement([3, 2, 2, 3],3))

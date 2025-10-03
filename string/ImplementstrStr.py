@@ -6,14 +6,6 @@ def ImplementstrStr(str1,str2):
             return i
     return -1
         
-        
-    # for i,v in enumerate(str1):
-    #     # print(f'{i} --> {v}')
-    #     if v == str2[0]:
-    #         if str2 == str1[i:i+len(str2)]:
-    #             return (i)
-    # return -1
-  
     
 print(ImplementstrStr("hello", "ll"))
 print(ImplementstrStr("abc", ""))      # 0

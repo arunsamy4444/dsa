@@ -13,10 +13,3 @@ def BaseBall(arr):
         
     
 print(BaseBall(["5","-2","4","C","D","9","+","+"]))
-# If integer → push.
-
-# If "C" → pop.
-
-# If "D" → push 2 * last.
-
-# If "+" → push sum(last two).
