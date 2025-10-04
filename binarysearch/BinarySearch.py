@@ -1,13 +1,14 @@
-def BinarySearch(arr , tar):
-    l = 0
-    r = len(arr) - 1
+def BinarySearch(nums , tar):
+    l=0
+    r=len(nums)-1
+
     while l <= r:
-        m = (l + r)//2
-        if arr[m] == tar :
+        m = (l+r)//2
+        if nums[m] == tar:
             return m
-        elif arr[m] < tar:
+        elif nums[m] < tar:
             l = m+1
-        elif arr[m] > tar:
+        elif nums[m] > tar:
             r = m-1
     return -1
     
