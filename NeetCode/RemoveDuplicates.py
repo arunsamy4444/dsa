@@ -7,8 +7,6 @@ def removeDuplicates(nums):
         else:
             i+=1
     return nums
-            
-    
-    
+        
     
 print(removeDuplicates([1,1,2,3,4]))
